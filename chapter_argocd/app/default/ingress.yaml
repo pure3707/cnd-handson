@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: scj00237.devenv.teamops.nifcloud.net
+  - host: sub.scj00237.devenv.teamops.nifcloud.net
     http:
       paths:
       - path: /
