@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: http-proxy
+    targetPort: http
     name: http
   selector:
     app: handson
