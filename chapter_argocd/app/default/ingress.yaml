@@ -5,7 +5,7 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
-  ingressClassName: app-ingress-nginx
+  ingressClassName: nginx
   rules:
   - host: sub.scj00237.devenv.teamops.nifcloud.net
     http:
